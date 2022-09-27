@@ -105,7 +105,7 @@ Non-trainable params: 384
 
 # Performance
 
-The train set is 9.729 files and the test set 2.433 files
+The train set is composed by 9.729 files, while the test set is 2.433 files
 
 | Test Performance (Accuracy) | Test Performance (Precision) | Test Performance (Recall) |
 | ------------- | ------------- | ------------- |
