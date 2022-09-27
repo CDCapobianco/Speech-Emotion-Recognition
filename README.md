@@ -39,7 +39,8 @@ In this specific case however, MFCC (Mel-frequency cepstral coefficients) was us
 
 CNN (Convolutional Neural Network) was considered for this task.
 
-_________________________________________________________________
+```
+_____________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
  conv2d (Conv2D)             (None, 25, 216, 32)       320       
@@ -100,7 +101,7 @@ Total params: 56,040
 Trainable params: 55,656
 Non-trainable params: 384
 
-
+```
 
 # Performance
 
