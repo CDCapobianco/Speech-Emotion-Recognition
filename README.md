@@ -1,5 +1,6 @@
 # Speech Emotion Recognition
 A Speech Recognition system built with DL techniques. The objective is to build a system which can classify 8 different emotions from human voice recordings.
+
 The emotions are:
 
 - Anger
@@ -32,7 +33,7 @@ The typical audio classification approach consists in decoding .wav files in num
 
 In this way the audio classification problem can be treated as a typical CV classification problem.
 
-In this specific case however, MFCC (Mel-frequency cepstral coefficients) was used to represent each audio file and fed to the model after normalization.
+In this specific case however, MFCC (Mel-frequency cepstral coefficients) was used to represent each audio file. Before feeding it to the CNN, data was normalized.
 
 # The Model
 
